@@ -122,10 +122,18 @@ h1, h2, h3, h4, h5, h6, .nav-links {
 }
 
 .hero-content h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    letter-spacing: 2px;
+}
+
+.hero-content h3 {
+    font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
-    color: #ccc;
+    color: var(--accent-color);
     letter-spacing: 1px;
 }
 
@@ -156,7 +164,15 @@ h1, h2, h3, h4, h5, h6, .nav-links {
     transform: translateY(-2px);
 }
 
-/* About Grid */
+/* About Grid & Bio */
+.bio-text {
+    font-size: 1.15rem;
+    max-width: 900px;
+    margin: 0 auto 3.5rem auto;
+    color: #ddd;
+    line-height: 1.8;
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -219,10 +235,14 @@ h1, h2, h3, h4, h5, h6, .nav-links {
 
 /* Contact Section */
 .contact-info {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-.email-link {
+.contact-link {
     display: inline-block;
     font-size: 1.5rem;
     color: var(--accent-color);
@@ -232,7 +252,7 @@ h1, h2, h3, h4, h5, h6, .nav-links {
     transition: color 0.3s;
 }
 
-.email-link:hover {
+.contact-link:hover {
     color: #fff;
 }
 
