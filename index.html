@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intact Winning | Speaker, Author, Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for urban/modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Intact Winning Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#brand">The Brand</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>INTACT <span>WINNING</span></h1>
+            <h2>Motivational Speaker • Author • Clothing Designer</h2>
+            <p>Empowering minds, styling the culture, and writing the blueprint for success.</p>
+            <a href="#contact" class="btn">Connect With Us</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">The Vision</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-microphone-alt"></i>
+                    <h3>Speaker</h3>
+                    <p>Delivering high-energy, transformative messages that push you to unlock your ultimate potential and stay resilient through adversity.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Author</h3>
+                    <p>Sharing life-changing stories and practical strategies for personal growth, leadership, and maintaining a winning mindset.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Designer</h3>
+                    <p>Creating urban, modern apparel that represents success, hustle, and the Intact Winning lifestyle. Wear your motivation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram/Brand Section -->
+    <section id="brand" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Join The Movement</h2>
+            <p class="brand-text">Stay connected with the latest motivation, book releases, and exclusive clothing drops. Follow our journey on Instagram and be part of the Intact Winning family.</p>
+            <a href="https://www.instagram.com/intact_winning1" target="_blank" class="instagram-btn">
+                <i class="fab fa-instagram"></i> @intact_winning1
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>For booking, collaborations, or inquiries, reach out to us:</p>
+            <div class="contact-info">
+                <a href="mailto:info@intactwinning.com" class="email-link">
+                    <i class="fas fa-envelope"></i> info@intactwinning.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Intact Winning. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
