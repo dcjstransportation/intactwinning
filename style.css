@@ -214,6 +214,20 @@ h1, h2, h3, h4, h5, h6, .nav-links {
     margin: 0 auto 2.5rem auto;
 }
 
+.instagram-widget-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px dashed var(--accent-color);
+    max-width: 800px;
+}
+
+.instagram-widget-container p {
+    color: #aaa;
+    margin-bottom: 0.5rem;
+}
+
 .instagram-btn {
     display: inline-block;
     padding: 15px 30px;
@@ -225,6 +239,7 @@ h1, h2, h3, h4, h5, h6, .nav-links {
     font-size: 1.2rem;
     border-radius: 30px;
     transition: transform 0.2s;
+    margin-top: 1rem;
 }
 
 .instagram-btn:hover {
